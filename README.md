@@ -24,6 +24,7 @@ Ensuite, exécutez la commande suivante:
 ```
 make build
 ```
+
 Cela va construire le conteneur, cette opération peut prendre plusieurs minutes.
 Si l'installation échoue, vérifiez que docker est bien installé et que le fichier id_rsa.pub existe bien dans le dossier ~/.ssh/
 
@@ -42,18 +43,17 @@ Pour quitter le conteneur, entrez:
 exit
 ```
 
-Vous devrez exécuter la commande ```make run``` dans le dossier EpitechDocker à chaque fois que vous voudrez entrer dans le conteneur.
+Vous devrez exécuter la commande `make run` dans le dossier EpitechDocker à chaque fois que vous voudrez entrer dans le conteneur.
 
 ## Exécutables
 
 Ce projet dispose de plusieurs exécutables utilisables au sein du conteneur qui peuvent être utiles lorsque vous travaillez sur vos projets:
-- clone $1 (clone le répertoire $1)
-- uploadssh (envoie une nouvelle clé ssh à BLIH)
+
 - mrclean (supprime les fichiers temporaires)
 - push (push votre projet avec git)
-- repogit $1 (créé le répertoire $1 et défini les droits valides à ramassage-tek)
 - zsh (avec ohmyzsh)
 
 ## Auteur
 
-* **Lucas LE RAY** - [LucasLeRay](https://github.com/LucasLeRay)
+- **Lucas LE RAY** - [LucasLeRay](https://github.com/LucasLeRay)
+- **Thibaut DAVID** - [ThibautDAVID](https://github.com/Stun3R)

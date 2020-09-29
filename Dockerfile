@@ -13,9 +13,7 @@ RUN yum update -y
 RUN yum install -y emacs
 RUN wget --no-check-certificate http://install.ohmyz.sh -O - | sh
 
-RUN chmod 777 /usr/bin/*
-
-ENV LOGIN firstname.lastname@epitech.eu
+ENV LOGIN thibaut.david@epitech.eu
 
 RUN git config --global user.email $LOGIN
 RUN git config --global user.name $LOGIN
